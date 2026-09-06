@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Accounting Control Studio builds spreadsheet-based control systems for businesses and finance teams.">
+  <meta name="theme-color" content="#0d2438">
+  <title>Accounting Control Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Accounting Control Studio home"><span class="brand-mark">ACS</span><span><strong>Accounting Control Studio</strong><small>Practical finance control systems</small></span></a>
+    <nav aria-label="Primary navigation"><a href="#products">Products</a><a href="#why-acs">Why ACS</a><a href="#faq">FAQ</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">Spreadsheet controls for real finance work</p><h1>Better decisions begin with <span>better control.</span></h1><p class="hero-lead">Accounting Control Studio creates professional spreadsheet-based control systems for businesses and finance teams that need more than a decorative template — without paying for enterprise software.</p><div class="hero-actions"><a class="btn btn-primary" href="#products">View products</a><a class="btn btn-secondary" href="#why-acs">How ACS works</a></div><div class="trust-row" role="list" aria-label="Key product principles"><span role="listitem">Native platform design</span><span role="listitem">Controlled workflows</span><span role="listitem">Clear documentation</span></div></div>
+      <div class="hero-card"><div class="mini-label">CURRENT RELEASE</div><div class="hero-card-number">13</div><div class="hero-card-title">weeks of cash visibility</div><div class="hero-card-grid"><div><strong>Source</strong><span>Integrity</span></div><div><strong>Timing</strong><span>Confidence</span></div><div><strong>Scenario</strong><span>Control</span></div><div><strong>Variance</strong><span>Learning</span></div></div></div>
+    </section>
+    <section class="section" id="products"><div class="section-heading"><div><p class="eyebrow">Products</p><h2>Control systems, not commodity templates.</h2></div><p>Each ACS product is built around a specific finance-control question and includes operational guidance, boundaries, and recovery support.</p></div><div id="product-grid" class="product-grid" aria-live="polite"></div></section>
+    <section class="section muted-section" id="why-acs"><div class="section-heading"><div><p class="eyebrow">Why ACS</p><h2>Designed around the decisions spreadsheets usually hide.</h2></div></div><div class="principles"><article><span>01</span><h3>Control before cosmetics</h3><p>Status, blockers, source quality, ownership, and next actions come before dashboard decoration.</p></article><article><span>02</span><h3>Visible uncertainty</h3><p>Important assumptions stay visible instead of being buried behind arbitrary scores or opaque logic.</p></article><article><span>03</span><h3>Platform-native releases</h3><p>We do not market one universal spreadsheet as if Excel and Google Sheets behave identically.</p></article><article><span>04</span><h3>Clear boundaries</h3><p>Every product states what it is, what it is not, and where spreadsheet architecture should stop.</p></article></div></section>
+    <section class="section" id="faq"><div class="section-heading"><div><p class="eyebrow">FAQ</p><h2>Before you buy.</h2></div></div><div class="faq-list"><details><summary>Are ACS products accounting software?</summary><p>No. They are spreadsheet-based control layers designed to work alongside the accounting or finance systems you already use.</p></details><details><summary>Do I need advanced spreadsheet skills?</summary><p>The products are designed for clear first-use operation, with blank and demo versions plus buyer documentation. Complex administration is kept out of the normal workflow where possible.</p></details><details><summary>Are ACS products internationally usable?</summary><p>The core systems are jurisdiction-neutral where stated. They do not replace country-specific tax, payroll, legal, statutory, lender, or accounting-policy advice.</p></details><details><summary>Do spreadsheet protections equal security?</summary><p>No. Range or worksheet protections are accidental-change controls. They are not enterprise security or database-grade permission systems.</p></details></div></section>
+  </main>
+  <div id="product-modal" class="modal" hidden><div class="modal-backdrop" data-close-modal></div><article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" type="button" data-close-modal aria-label="Close product details">×</button><div id="modal-content"></div></article></div>
+  <footer><div><strong>Accounting Control Studio</strong><p>Professional spreadsheet-based accounting and finance control systems.</p></div><p>© <span id="year"></span> Accounting Control Studio.</p></footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>
