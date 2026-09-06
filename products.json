@@ -11,12 +11,12 @@
     "regularPrice": 59,
     "purchaseUrl": "REPLACE_WITH_GUMROAD_PRODUCT_URL",
     "images": [
-      "./assets/product-004/01_hero_cover.png",
-      "./assets/product-004/02_dashboard_showcase.png",
-      "./assets/product-004/03_control_differentiators.png",
-      "./assets/product-004/04_scenario_risk.png",
-      "./assets/product-004/05_buyer_package.png",
-      "./assets/product-004/06_compatibility_boundaries.png"
+      "./assets/product-004/01_hero_cover.svg",
+      "./assets/product-004/02_dashboard_showcase.svg",
+      "./assets/product-004/03_control_differentiators.svg",
+      "./assets/product-004/04_scenario_risk.svg",
+      "./assets/product-004/05_buyer_package.svg",
+      "./assets/product-004/06_compatibility_boundaries.svg"
     ],
     "features": [
       "Controlled opening-cash validation",
