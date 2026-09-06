@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "13-week-cash-liquidity-control",
+    "status": "live",
+    "featured": true,
+    "name": "13-Week Cash & Liquidity Control System",
+    "platform": "Google Sheets Professional Edition",
+    "summary": "A professional rolling cash-control system for businesses and finance teams that need to see liquidity pressure before it becomes a crisis.",
+    "longDescription": "Don’t just forecast cash. Control the weeks that can break it. This native Google Sheets system combines source integrity, timing confidence, scenario analysis, liquidity-floor monitoring, actual-vs-forecast variance, action ownership, and forecast history in one operating workflow.",
+    "launchPrice": 49,
+    "regularPrice": 59,
+    "purchaseUrl": "REPLACE_WITH_GUMROAD_PRODUCT_URL",
+    "images": [
+      "./assets/product-004/01_hero_cover.png",
+      "./assets/product-004/02_dashboard_showcase.png",
+      "./assets/product-004/03_control_differentiators.png",
+      "./assets/product-004/04_scenario_risk.png",
+      "./assets/product-004/05_buyer_package.png",
+      "./assets/product-004/06_compatibility_boundaries.png"
+    ],
+    "features": [
+      "Controlled opening-cash validation",
+      "13 rolling weekly cash buckets",
+      "Base, Upside, Downside, and Stress scenarios",
+      "Minimum liquidity floor and reserve-breach visibility",
+      "Timing windows and qualitative forecast confidence",
+      "Actual-vs-forecast variance and timing analysis",
+      "Action owners, due dates, and mitigation tracking",
+      "FX-rate provenance for multi-currency planning",
+      "Forecast snapshots and system checks",
+      "Blank + demo + full operating documentation"
+    ],
+    "compatibility": [
+      "Native Google Sheets edition",
+      "Modern desktop browser is the primary workspace",
+      "Mobile supports status review and light controlled updates",
+      "No Apps Script required for core operation",
+      "No required IMPORTRANGE chain",
+      "Jurisdiction-neutral international core",
+      "Business Single-Platform license"
+    ],
+    "boundaryNote": "This is not bank-connected treasury-management software, an ERP, a universal tax or payroll calculator, enterprise FP&A, or a database-grade audit-trail system. Excel is not included in v1.0."
+  },
+  {
+    "slug": "future-release",
+    "status": "coming-soon",
+    "featured": false,
+    "name": "More ACS control systems",
+    "summary": "The storefront is already structured to add future ACS products without rebuilding the site."
+  }
+]
